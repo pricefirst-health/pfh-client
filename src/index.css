@@ -14,3 +14,12 @@ body {
 button:disabled {
   opacity: 0.5;
 }
+
+a {
+  color: #d3dee1;
+}
+
+a:hover {
+  color: #d3dee1;
+  text-decoration: none;
+}

@@ -1,0 +1,74 @@
+html {
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+input, button {
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 38px;
+  font-size: 93.7%;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+input {
+  border: 1px solid #bbb8b9;
+  border-radius: 5px;
+}
+
+input:focus, input:hover {
+  outline: none;
+  border: 1px solid darkred;
+}
+
+.root {
+  flex: 1;
+}
+
+.social-media {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+}
+.social-media-image {
+  width: 32px;
+  height: 32px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: #212529;
+  color: #aaa;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.is-disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5
+}
